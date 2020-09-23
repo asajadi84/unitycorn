@@ -1,33 +1,25 @@
-# Website
+<div dir="rtl">
+
+# یونیتیکورن :unicorn:
+
+_سفرنامه‌ای به تجربیاتمان از بازی‌سازی_
+
+با استفاده از این مخزن می‌توانید وبسایت یونیتیکورن را بر روی سیستم خود دیپلوی کرده و در صورت لزوم اقدام به ویرایش آن نمایید. برای کلون کردن یونیتیکورن از دستور
+
+```
+git clone https://github.com/asajadi84/unitycorn.git
+```
+
+استفاده نمایید.
+
+## شرایط استفاده
+
+وبسایت یونیتیکورن به صورت رایگان و با هدف آموزش بازیسازی به همه تاسیس شده است. یکی از دلایل اوپن سورس بودن یونیتیکورن نیز به همین هدف باز می‌گردد. بنابراین شما می‌توانید محتوای این وبسایت را با رعایت دو شرط زیر به دلخواه منتشر کرده و یا حتی تغییر دهید.
+
+* مطالب یونیتیکورن رایگان است و نباید از آن استفاده تجاری نمود.
+
+* در صورت تغییر دادن سایت بایستی یک لینک به محتوای اصلی (سایت یونیتیکورن) در پروژه خود قرار دهید.
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+</div>
