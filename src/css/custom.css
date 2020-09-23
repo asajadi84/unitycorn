@@ -1,0 +1,152 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: Sahel;
+  font-style: normal;
+  src: url('/fonts/sahel.eot');
+  src: url('/fonts/sahel.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/sahel.woff2') format('woff2'),
+    url('/fonts/sahel.woff') format('woff')
+}
+
+@font-face {
+  font-family: SahelBold;
+  font-style: normal;
+  src: url('/fonts/sahelbold.eot');
+  src: url('/fonts/sahelbold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/sahelbold.woff2') format('woff2'),
+    url('/fonts/sahelbold.woff') format('woff')
+}
+
+@font-face {
+  font-family: Lalezar;
+  font-style: normal;
+  src: url('/fonts/lalezar.ttf');
+}
+
+:root {
+  --ifm-color-primary: #00ACC1;
+  --ifm-color-primary-dark: #0097A7;
+  --ifm-color-primary-darker: #00838F;
+  --ifm-color-primary-darkest: #006064;
+  --ifm-color-primary-light: #00BCD4;
+  --ifm-color-primary-lighter: #26C6DA;
+  --ifm-color-primary-lightest: #4DD0E1;
+  --ifm-code-font-size: 95%;
+
+  direction: rtl;
+  font-family: Sahel !important;
+}
+
+
+
+h1 {
+  font-family: Lalezar !important;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: SahelBold !important;
+}
+
+.navbar__logo {
+  height: 100%;
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+.navbar__title {
+  font-family: Lalezar !important;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.table-of-contents__left-border {
+  border-right-color: var(--ifm-toc-border-color);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-left-width: 0px;
+}
+
+.admonition-icon {
+  margin-right: 0;
+  margin-left: 0.2em;
+}
+
+.react-toggle {
+  margin-right: 10px;
+}
+
+blockquote {
+  border-left: 0px;
+  border-right: 6px solid var(--ifm-color-emphasis-300);
+}
+
+ul {
+  padding-inline-start: 10px;
+}
+
+em {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  color: #aaaaaa;
+  display: block;
+}
+
+@keyframes wiggle {
+ 0% { transform: rotate(3deg); }
+ 50% { transform: rotate(-3deg); }
+ 100% { transform: rotate(3deg); }
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-width: 0;
+  color: white !important;
+  animation: wiggle 1s infinite;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black !important;
+  animation: none;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.token-line::before {
+  content: "\200E‎";
+}
+
+.token-line::after {
+  content: "\200E‎";
+}
+
+code::before {
+  content: "\200E‎";
+}
+
+code::after {
+  content: "\200E‎";
+}
+
+.hash-link {
+  padding-right: 0.5rem;
+  padding-left: 0;
+}
+
+.footerlogo {
+  margin-top: 20px;
+}
