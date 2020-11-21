@@ -5,11 +5,13 @@
 _سفرنامه‌ای به تجربیاتمان از بازی‌سازی_
 
 با استفاده از این مخزن می‌توانید وبسایت یونیتیکورن را بر روی سیستم خود دیپلوی کرده و در صورت لزوم اقدام به ویرایش آن نمایید. برای کلون کردن یونیتیکورن از دستور
+</div>
 
 ```
 git clone https://github.com/asajadi84/unitycorn.git
 ```
 
+<div dir="rtl">
 استفاده نمایید.
 
 ## شرایط استفاده
@@ -19,7 +21,6 @@ git clone https://github.com/asajadi84/unitycorn.git
 * مطالب یونیتیکورن رایگان است و نباید از آن استفاده تجاری نمود.
 
 * در صورت تغییر دادن سایت بایستی یک لینک به محتوای اصلی (سایت یونیتیکورن) در پروژه خود قرار دهید.
+</div>
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
-
-</div>
